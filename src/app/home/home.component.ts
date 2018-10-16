@@ -50,10 +50,6 @@ export class HomeComponent implements OnInit {
       friend: false,
       uid: 5
     };
-    const users: User[] = [myUser, friendOne, friendTwo];
-    console.log('users = ', users);
-
-    console.log('myUser = ', myUser);
 
     this.friends = [myUser, friendOne, friendTwo, friendThree, friendFour];
   }
