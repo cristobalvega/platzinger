@@ -7,6 +7,7 @@ import {User} from '../interfaces/user';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  friends: User[];
 
   constructor() {
     const myUser: User = {
@@ -37,6 +38,8 @@ export class HomeComponent implements OnInit {
     console.log('users = ', users);
 
     console.log('myUser = ', myUser);
+
+    this.friends = [myUser, friendOne, frendTwo];
   }
 
   ngOnInit() {
