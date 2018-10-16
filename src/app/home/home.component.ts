@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
       age: 22,
       email: 'perezpera@hol.com',
       friend: false,
-      uid: 1
+      uid: 2
     };
     const friendTwo: User = {
       nick: 'Brian',
@@ -32,14 +32,30 @@ export class HomeComponent implements OnInit {
       age: 22,
       email: 'padillasi@gmail.com',
       friend: true,
-      uid: 1
+      uid: 3
+    };
+    const friendThree: User = {
+      nick: 'Ernerst',
+      subnick: 'cherne',
+      age: 22,
+      email: 'negrocherne@gmail.com',
+      friend: true,
+      uid: 4
+    };
+    const friendFour: User = {
+      nick: 'Brian Casa',
+      subnick: 'responsable',
+      age: 22,
+      email: 'casaslo@ittepic.edu.mx',
+      friend: false,
+      uid: 5
     };
     const users: User[] = [myUser, friendOne, friendTwo];
     console.log('users = ', users);
 
     console.log('myUser = ', myUser);
 
-    this.friends = [myUser, friendOne, friendTwo];
+    this.friends = [myUser, friendOne, friendTwo, friendThree, friendFour];
   }
 
   ngOnInit() {
