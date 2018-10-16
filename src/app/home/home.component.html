@@ -1,4 +1,17 @@
-<p *ngFor="let user of friends; let i = index">
-  home works!
-  {{i}} {{user.nick}} - {{user.email}}
-</p>
+<br>
+<br>
+<b>Amigos</b>
+<ng-container *ngFor="let user of friends; let i = index">
+  <p *ngIf="user.friend">
+    home works!
+    {{i}} {{user.nick}} - {{user.email}}
+  </p>
+</ng-container>
+<br>
+<b>No Amigos</b>
+<ng-container *ngFor="let user of friends; let i = index">
+  <p *ngIf="!user.friend">
+    home works!
+    {{i}} {{user.nick}} - {{user.email}}
+  </p>
+</ng-container>
