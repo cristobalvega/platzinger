@@ -12,7 +12,7 @@ export class UserService {
       nick: 'Cristobal',
       subnick: 'elskippa',
       age: 22,
-      email: 'cristo@gmail.com',
+      email: 'crelvegalu@ittepic.edu.mx',
       friend: true,
       uid: 1
     };
@@ -20,7 +20,7 @@ export class UserService {
       nick: 'Juventino',
       subnick: 'Juwar',
       age: 22,
-      email: 'perezpera@ittepic.edu.mx',
+      email: 'juperezpe@ittepic.edu.mx',
       friend: false,
       uid: 2
     };
@@ -28,12 +28,12 @@ export class UserService {
       nick: 'Brian',
       subnick: 'caboprivate',
       age: 22,
-      email: 'padillasi@gmail.com',
+      email: 'brefpadillasi@ittepic.edu.mx',
       friend: true,
       uid: 3
     };
     const friendThree: User = {
-      nick: 'Ernerst',
+      nick: 'Ernesto',
       subnick: 'cherne',
       age: 22,
       email: 'negrocherne@gmail.com',
@@ -41,10 +41,10 @@ export class UserService {
       uid: 4
     };
     const friendFour: User = {
-      nick: 'Brian Casa',
+      nick: 'Brian Casas',
       subnick: 'responsable',
       age: 22,
-      email: 'casaslo@ittepic.edu.mx',
+      email: 'bralcasaslo@ittepic.edu.mx',
       friend: false,
       uid: 5
     };
