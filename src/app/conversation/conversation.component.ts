@@ -24,7 +24,6 @@ export class ConversationComponent implements OnInit {
     this.friend = this.friends.find((record) => {
       return record.uid == this.friendId;
     });
-    console.log('El friend', this.friend);
   }
 
   ngOnInit() {
