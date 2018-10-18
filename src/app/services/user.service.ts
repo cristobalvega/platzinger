@@ -14,7 +14,8 @@ export class UserService {
       age: 22,
       email: 'crelvegalu@ittepic.edu.mx',
       friend: true,
-      uid: 1
+      uid: 1,
+      status: 'online'
     };
     const friendOne: User = {
       nick: 'Juventino',
@@ -22,7 +23,8 @@ export class UserService {
       age: 22,
       email: 'juperezpe@ittepic.edu.mx',
       friend: false,
-      uid: 2
+      uid: 2,
+      status: 'busy'
     };
     const friendTwo: User = {
       nick: 'Brian',
@@ -30,7 +32,8 @@ export class UserService {
       age: 22,
       email: 'brefpadillasi@ittepic.edu.mx',
       friend: true,
-      uid: 3
+      uid: 3,
+      status: 'away'
     };
     const friendThree: User = {
       nick: 'Ernesto',
@@ -38,7 +41,8 @@ export class UserService {
       age: 22,
       email: 'negrocherne@gmail.com',
       friend: true,
-      uid: 4
+      uid: 4,
+      status: 'appear_offline'
     };
     const friendFour: User = {
       nick: 'Brian Casas',
@@ -46,7 +50,8 @@ export class UserService {
       age: 22,
       email: 'bralcasaslo@ittepic.edu.mx',
       friend: false,
-      uid: 5
+      uid: 5,
+      status: 'offline'
     };
 
     this.friends = [myUser, friendOne, friendTwo, friendThree, friendFour];
