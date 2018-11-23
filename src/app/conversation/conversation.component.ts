@@ -12,7 +12,7 @@ export class ConversationComponent implements OnInit {
   friendId: any;
   friends: User[];
   friend: User;
-  price: number = 78.221324234414;
+  price = 78.221324234414;
   today: any = Date.now();
   constructor(
     private activatedRoute: ActivatedRoute,
