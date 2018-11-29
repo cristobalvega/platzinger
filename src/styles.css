@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-.avatarFrameoffline {
+.avatarFrameOffline {
   background: rgba(226,226,226,1);
   background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
   background: -webkit-gradient(linear,left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
@@ -24,11 +24,16 @@
   text-align: center;
   padding: 5%;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.36);
-  -webkit-box-shadow: 3px3px21px1pxrgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px3px21px1pxrgba(0, 0, 0, 0.75);
-  box-shadow: 3px3px21px1pxrgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 183, 218, 0.36);
   display: inline-block;
+}
+
+.avatarFrameBusy {
+
+}
+
+.avatarFrameAway {
+
 }
 
 

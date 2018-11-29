@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {User} from '../interfaces/user';
+import { User } from '../interfaces/user';
 
 @Injectable({
   providedIn: 'root'
@@ -46,7 +46,7 @@ export class UserService {
     };
     const friendFour: User = {
       nick: 'Brian Casas',
-      subnick: 'responsable',
+      subnick: 'Brianacl',
       age: 22,
       email: 'bralcasaslo@ittepic.edu.mx',
       friend: false,

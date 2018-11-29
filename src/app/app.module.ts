@@ -9,9 +9,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { RouterModule, Routes} from '@angular/router';
 import { MenuComponent } from './menu/menu.component';
 import { SearchPipe } from './pipes/search';
-import {FormsModule} from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', component: LoginComponent},
   {path: 'home', component: HomeComponent},
   {path: 'login', component: LoginComponent},
   {path: 'conversation/:uid', component: ConversationComponent},
